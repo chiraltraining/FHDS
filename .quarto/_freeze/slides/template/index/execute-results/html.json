@@ -1,0 +1,18 @@
+{
+  "hash": "064ce3709294b45e157298ae0459d178",
+  "result": {
+    "markdown": "---\ntitle: \"Health Data Science\"\nsubtitle: \"L01- Session Title\"\nauthor:\n  - name: Md. Jubayer Hossain\n    orcid: 0000-0001-9323-4997\n    url: https://hossainlab.github.io/\n    affiliations: \n    - Instructor \n    - cBLAST, University of Dhaka\n\ndate: last-modified\ndate-format: \"[Last Updated on] MMMM, YYYY\"\nfooter: \"Health Data Science  | &copy; 2024 Md. Jubayer Hossain\"\neditor: source\nformat: \n  revealjs: \n    logo: images/logo.png\n    css: slides.scss\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    chalkboard: false\n    toc: true\n    toc-depth: 1\n    toc-title: In this lecture...\nexecute:\n  echo: true\n  output: asis\n  freeze: auto\ncache: true\n---\n# Course overview\n\n## Focus of HDS\n\n::: {.incremental}\n:::: {.columns}\n\n::: {.column width=\"50%\"}\nMachine Learning \n\n- Models \n- Algorithms\n:::\n\n::: {.column width=\"50%\"}\nHealthcare\n\n- Data\n- Applications\n:::\n\n::::\n:::\n\n## After this course\n::: {.cell hash='index_cache/revealjs/img1_61a176bec2917cdf6a30de60102366b0'}\n![](images/banner.png){width=668}\n:::\n\n\n\n\n# Background \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\r\n<script>\r\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\r\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\r\n  // slide changes (different for each slide format).\r\n  (function () {\r\n    // dispatch for htmlwidgets\r\n    function fireSlideEnter() {\r\n      const event = window.document.createEvent(\"Event\");\r\n      event.initEvent(\"slideenter\", true, true);\r\n      window.document.dispatchEvent(event);\r\n    }\r\n\r\n    function fireSlideChanged(previousSlide, currentSlide) {\r\n      fireSlideEnter();\r\n\r\n      // dispatch for shiny\r\n      if (window.jQuery) {\r\n        if (previousSlide) {\r\n          window.jQuery(previousSlide).trigger(\"hidden\");\r\n        }\r\n        if (currentSlide) {\r\n          window.jQuery(currentSlide).trigger(\"shown\");\r\n        }\r\n      }\r\n    }\r\n\r\n    // hookup for slidy\r\n    if (window.w3c_slidy) {\r\n      window.w3c_slidy.add_observer(function (slide_num) {\r\n        // slide_num starts at position 1\r\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\r\n      });\r\n    }\r\n\r\n  })();\r\n</script>\r\n\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

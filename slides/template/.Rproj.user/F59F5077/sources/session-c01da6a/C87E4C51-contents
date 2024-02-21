@@ -1,0 +1,36 @@
+---
+title: "Health Data Science"
+subtitle: "L01- Session Title"
+author:
+  - name: Md. Jubayer Hossain
+    orcid: 0000-0001-9323-4997
+    url: https://hossainlab.github.io/
+    affiliations: 
+    - Instructor 
+    - cBLAST, University of Dhaka
+
+date: last-modified
+date-format: "[Last Updated on] MMMM, YYYY"
+footer: "Health Data Science  | &copy; 2024 Md. Jubayer Hossain"
+editor: source
+format: 
+  revealjs: 
+    logo: images/logo.png
+    css: slides.scss
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: false
+    toc: true
+    toc-depth: 1
+    toc-title: In this lecture...
+execute:
+  echo: true
+  output: asis
+  freeze: auto
+cache: true
+---
+
+{{< include 00-intro.qmd >}} 
+{{< include 01-background.qmd >}} 
+

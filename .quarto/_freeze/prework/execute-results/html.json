@@ -1,0 +1,14 @@
+{
+  "hash": "3ac14b8e8c50800f9ff9728ed72a5f98",
+  "result": {
+    "markdown": "---\ntitle: \"Preparation\"\nformat: \n  html:\n    code-fold: false\n    code-tools: false\neditor: source\n---\n\n\n\nHere are some preparation information for the participants.\n\n## Software\n\nIn this workshop we will be using R. You can either\n\n-   have **R and Rstudio** installed on your laptop\n-   or, use **Posit cloud** (formerly Rstudio Cloud).\n\n[Posit cloud](https://posit.cloud) is free of charge for personal users, yet you need to [sign up](https://posit.cloud/plans/free) for a new user account and have internet connection.\n\n## Install Bioconductor\n \n\n::: {.cell}\n\n```{.r .cell-code}\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.17\")\n```\n:::\n\n\n## Install Bioconductor Packages\n\n::: {.cell}\n\n```{.r .cell-code}\nBiocManager::install(c(\"TCGAbiolinks\", \"SummarizedExperiment\", \"maftools\"))\n```\n:::\n\n\n## Data\n\nThe datasets we use can be found here Genomic Data Commons (GDC): <https://gdc.cancer.gov/>.\n\n## Code\n\nThe R scripts used in part 1 and part 2 can be found here <https://github.com/omicscenter/TCGADataAnalysiswithR>.\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

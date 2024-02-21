@@ -1,0 +1,29 @@
+{
+  "index.qmd": {
+    "index.html": "25052d75"
+  },
+  "about.qmd": {
+    "about.html": "56defa29"
+  },
+  "prework.qmd": {
+    "prework.html": "6972594a"
+  },
+  "q-and-a.qmd": {
+    "q-and-a.html": "87020da5"
+  },
+  "resources.qmd": {
+    "resources.html": "2a162c74"
+  },
+  "setup-guide.qmd": {
+    "setup-guide.html": "28d537ff"
+  },
+  "slides/template/index.qmd": {
+    "index.html": "1ff50680"
+  },
+  "slides/template/00-intro.qmd": {
+    "00-intro.html": "7d481b87"
+  },
+  "slides/template/01-background.qmd": {
+    "01-background.html": "9c720843"
+  }
+}

@@ -1,0 +1,33 @@
+# Course overview
+
+## Focus of HDS
+
+::: {.incremental}
+:::: {.columns}
+
+::: {.column width="50%"}
+Machine Learning 
+
+- Models 
+- Algorithms
+:::
+
+::: {.column width="50%"}
+Healthcare
+
+- Data
+- Applications
+:::
+
+::::
+:::
+
+## After this course
+```{r}
+#| label: img1
+#| echo: false
+knitr::include_graphics("images/banner.png")
+```
+
+
+
